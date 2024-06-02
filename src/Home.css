@@ -1,0 +1,22 @@
+.home-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-image: url('../images/bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: #ffffff; /* Ensure text is visible on the background */
+  }
+  
+  .background-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 50px; /* Add some margin to the left for spacing */
+  }
+  
+  .typing-effect {
+    text-align: left; /* Ensure text is left-aligned */
+  }
+  

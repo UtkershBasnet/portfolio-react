@@ -1,7 +1,15 @@
+nav {
+    width: 100%;
+    background-color: #282c34; /* Ensure a contrasting background color */
+    padding: 10px 0; /* Add padding for better visibility */
+}
+
 .navbar {
     list-style: none;
     display: flex;
-    
+    justify-content: center; /* Center the nav items */
+    padding: 0;
+    margin: 0;
 }
 
 .nav-item {
@@ -12,6 +20,7 @@
     color: white;
     text-decoration: none;
     padding: 5px 0;
+    position: relative; /* Ensure relative positioning for the pseudo-element */
 }
 
 .nav-item a::after {
@@ -21,7 +30,11 @@
     width: 0;
     background: white;
     transition: width 0.3s ease;
+    position: absolute; /* Absolute positioning for the pseudo-element */
+    bottom: 0; /* Position the underline at the bottom of the link */
+    left: 0; /* Start the underline from the left */
 }
+
 .nav-item a:hover::after {
-    width: 100%;
+    width: 100%; /* Animate to full width on hover */
 }

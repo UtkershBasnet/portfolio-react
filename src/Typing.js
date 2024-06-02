@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './Typing.css';
 
 function Typing({
   text,

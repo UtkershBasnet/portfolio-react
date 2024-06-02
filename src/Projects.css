@@ -1,0 +1,15 @@
+.projects-section {
+    padding: 20px;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .projects-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects-section li {
+    margin: 20px 0;
+  }
+  

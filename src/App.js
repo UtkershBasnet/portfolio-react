@@ -1,25 +1,28 @@
-
 import './App.css';
 import NavBar from './NavBar';
-import Typing from './Typing';
+import Home from './Home';
+import About from './About';
+import Projects from './Projects';
+import Resume from './Resume';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <NavBar />
-      </header>
-      <Typing
-          text={[
-            "Hello, welcome to the typing effect demo!",
-            "Enjoy exploring this cool effect!",
-            "This is an example of typing and deleting text.",
-          ]}
-          typingSpeed={100}
-        deletingSpeed={50}
-        duration={1000}
-        
-        />
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <NavBar />
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 
