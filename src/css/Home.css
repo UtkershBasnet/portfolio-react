@@ -1,10 +1,10 @@
 body{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .home-section {
-  /* position: relative; */
+  
   height: 100vh; /* Full viewport height */
-  /* background-image: url('../images/bg.jpg'); Replace with your image path */
+  background-image: url('../images/white-aesthetic-beach-sand-v9syq99c9o2ttf0f.jpg'); 
   background-size: cover;
   background-position: center;
   display: flex; /* Use flexbox for alignment */
@@ -20,7 +20,7 @@ body{
   /* padding: 20px; */
   border-radius: 10px;
   text-align: left; /* Left-align text */
-  color: blue;
+  color:blueviolet;
 }
 
 .typing-effect {
@@ -30,4 +30,23 @@ body{
 .name-title {
   margin: 5px 0; /* Add small margin for spacing */
   padding: 0;
+}
+
+
+
+.footerLinks {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footerLinks a {
+  color: black;
+  margin: 0 10px;
+  font-size: 2em;
+  transition: color 0.3s;
+}
+
+.footerLinks a:hover {
+  color: whitesmoke;
 }

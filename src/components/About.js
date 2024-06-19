@@ -3,12 +3,11 @@ import '../css/About.css';
 
 const perc = {
     java: 80,
-    javascript: 70,
-    python: 70,
-    typescript: 60,
+    python: 65,
     react1: 60,
-    springboot: 50,
-    node: 60
+    javascript: 70,
+    springboot: 65,
+    node: 75
 };
 
 function increase() {
@@ -43,6 +42,7 @@ function Skills() {
         <>
             <div className="SkillsBody poppins">
                 <div className="SkillsContainer">
+                  <div className="imageContainer"></div>
                     <div className="skillTab ">
                         <div className="heading bebas-neue-regular">SKILLS</div>
                         <div className="skillsProgressBars">
@@ -50,12 +50,6 @@ function Skills() {
                                 JAVA
                                 <div class="progress-container">
                                     <div class="progress-bar java"><span></span></div>
-                                </div>
-                            </div>
-                            <div className="label bebas-neue-regular">
-                                JAVASCRIPT
-                                <div class="progress-container">
-                                    <div class="progress-bar javascript"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
@@ -68,6 +62,12 @@ function Skills() {
                                 REACT
                                 <div class="progress-container">
                                     <div class="progress-bar react1"><span></span></div>
+                                </div>
+                            </div>
+                            <div className="label bebas-neue-regular">
+                                JAVASCRIPT
+                                <div class="progress-container">
+                                    <div class="progress-bar javascript"><span></span></div>
                                 </div>
                             </div>
                             <div className="label bebas-neue-regular">
@@ -84,6 +84,7 @@ function Skills() {
                             </div>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </>

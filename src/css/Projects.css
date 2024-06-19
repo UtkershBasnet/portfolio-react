@@ -1,43 +1,54 @@
-.projects-section {
-  padding: 60px 20px; /* Add some padding */
-  background-color: #f4f4f4; /* Light background color */
-  min-height: 100vh; /* Ensure full viewport height */
-  color: #333; /* Text color */
-}
-
-.projects-section h1 {
+.projectHeading{
   text-align: center;
-  margin-bottom: 40px;
-  font-size: 2.5em;
-  color: #222; /* Darker color for the heading */
+  padding: 75px 0;
+  letter-spacing: 0.4px;
+  font-size: 36px;
+  
 }
 
-.projects-list {
-  list-style: none;
-  padding: 0;
+.project{
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  margin: 25px 5%;
 }
 
-.project-item {
-  background: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+.projectBox{
+  width: 350px;
+  border: 3px solid black;
+  border-radius: 10%;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 22px;
+  
+  margin: 0px 25px 50px 25px;
+  transition: 0.2s;
+}
+.projectBox:hover{
+  transform: scale(1.04);
+  /* box-shadow: 0 4px 10px 0 ; */
 }
 
-.project-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.projectPhoto{
+  display: block;
+  width: 100%;
+  margin: 20px 0px;
 }
 
-.project-item h2 {
-  margin-top: 0;
-  font-size: 1.5em;
-}
-
-.project-item p {
-  margin: 10px 0 0;
+.projectbtn{
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 25px 3% 0;
+ border-radius: 10px;
+  background-color: black;
+  color: #E7E7E7;
+  height: 30px;
+  cursor:pointer;
+  text-decoration: none;
+  border-style: none;
 }
