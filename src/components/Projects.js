@@ -11,7 +11,7 @@ function Projects() {
         </li>
         <li className="project-item">
           <h2>Project 2</h2>
-          <p>Description of project 2...</p>
+          <p>Description of project 2...</p>  
         </li>
         {/* Add more projects as needed */}
       </ul>
