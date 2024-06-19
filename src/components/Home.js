@@ -1,9 +1,10 @@
 import Typing from './Typing';
-import './Home.css';
+import '../css/Home.css';
 
 function Home() {
   return (
     <div className="home-section">
+      <h1 className="name-title">Utkersh Basnet</h1>
       <div className="background-overlay">
         <Typing
           text={[

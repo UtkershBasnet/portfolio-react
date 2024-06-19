@@ -1,0 +1,35 @@
+body{
+  overflow: hidden;
+}
+.home-section {
+  position: relative;
+  height: 100vh; /* Full viewport height */
+  background-image: url('../images/bg.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  justify-content: center; /* Center content vertically */
+  color: #ffffff; /* Ensure text is visible on the background */
+  padding: 20px; /* Add some padding */
+  
+}
+
+.name-title {
+  font-size: 3em; /* Adjust font size as needed */
+  font-weight: bold; /* Make the name bold */
+  margin-bottom: 20px; /* Space between the name and the typing effect */
+  color: black;
+}
+
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left; /* Left-align text */
+}
+
+.typing-effect {
+  text-align: left; /* Ensure text is left-aligned */
+}
